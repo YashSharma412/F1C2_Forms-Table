@@ -77,15 +77,24 @@ header{
     /* background-image: url(https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80); */
 }
 
-.booksdiv{
-    width: 80%;
+
+.sectiondiv{
+    width: 70%;
     padding: 40px 20px;
     background-color: aliceblue;
     margin: 20px;
+    margin-bottom: 40px;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0,0.1);
-
 }
+
+#sectionHeading{
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 10px 40px;
+    margin-bottom: 25px; 
+}
+
 .main-table{
     margin-left: auto;
     margin-right: auto;
@@ -98,24 +107,51 @@ header{
 .main-table th, td{
     border: 1px solid gray;
     padding: 10px;
+    font-size: 16px;
 
 }
 
 .subtable{
     margin: 10px;
+    margin-top: 35px;
     padding: 5px;
+    width: 94%;
     border: 1px solid gray;
     border-collapse: collapse;
 }
 
 .bookImg{
-    width:220px;
-    height: 270px;
+    width: 170px;
+    height: 210px;
 }
-/*
+
+.bookImg{
+    margin-left: 5px;
+}
+
 .bookSrNo{
-
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
 } 
-.formdiv{
 
+/* CSS FOR FORM STARTS HERE */
+/* 
+.formsdiv{
+    width: 70%;
+    padding: 40px 20px;
+    background-color: aliceblue;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0,0.1);
+}
+
+#FormsHeading{
+    font-size: 24px;
+    font-weight: 900;
+    margin: 10px 40px;
+    margin-bottom: 25px; 
 } */
+

@@ -14,7 +14,7 @@
     
                 <ul id="navList">
                     <li><a href="#">Books</a></li>
-                    <li><a href="#">Register</a></li>
+                    <li><a href="#formstart">Register</a></li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a id="Logout" href="#">Logout</a></li>
                 </ul>
@@ -24,8 +24,8 @@
     <section>
         <div class="container">
 <!--------------------------------- table starts here----------------------- -->
-          <div class="booksdiv">
-            <h1>Books</h1>
+          <div class="sectiondiv">
+            <h1 id="sectionHeading">Books</h1>
             <table class="main-table">
                 <tr>
                     <th>Book ID</th>
@@ -41,7 +41,7 @@
                         <img class="bookImg" src="https://imgv2-2-f.scribdassets.com/img/word_document/476834107/original/216x287/2359cdebfd/1690198225?v=1" alt="Book Cover">
                     </td>
                     <td>
-                        <h3>Win freinds and Influence People </h3>
+                        <h3 class="name"><a href="#">Win freinds and Influence People </a></h3>
                         <table class="subtable">
                             <tr><td>Publication Date: 1936 </td></tr>
                             <tr><td>Page count:320 </td></tr>
@@ -59,7 +59,7 @@
                         <img class="bookImg" src="https://d.gr-assets.com/books/1327156320l/8045416.jpg" alt="Book Cover">
                     </td>
                     <td>
-                        <h3>To Kill a Mockingbird </h3>
+                        <h3 class="name"><a href="#">To Kill a Mockingbird</a></h3>
                         <table class="subtable">
                             <tr><td>Publication Date: 1988 </td></tr>
                             <tr><td>Page count:281 </td></tr>
@@ -76,7 +76,7 @@
                         <img class="bookImg" src="https://m.media-amazon.com/images/I/81DzJ5OV9ZL._AC_UF1000,1000_QL80_.jpg" alt="Book Cover">
                     </td>
                     <td>
-                        <h3>The White Tiger</h3>
+                        <h3 class="name"><a href="#">White Tiger</a></h3>
                         <table class="subtable">
                             <tr><td>Publication Date: 2008 </td></tr>
                             <tr><td>Page count:318 </td></tr>
@@ -93,7 +93,7 @@
                         <img class="bookImg" src="https://m.media-amazon.com/images/I/51bVNTqHFlL._AC_UF1000,1000_QL80_.jpg" alt="Book Cover">
                     </td>
                     <td>
-                        <h3>The Alchemist</h3>
+                        <h3 class="name"><a href="#">The Alchemist</a></h3>
                         <table class="subtable">
                             <tr><td>Publication Date: 1993 </td></tr>
                             <tr><td>Page count:163 </td></tr>
@@ -110,7 +110,7 @@
                         <img class="bookImg" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660273739i/11870085.jpg" alt="Book Cover">
                     </td>
                     <td>
-                        <h3>The Fault in Our Stars</h3>
+                        <h3 class="name"><a href="#">The Fault in Our Stars</a></h3>
                         <table class="subtable">
                             <tr><td>Publication Date: 2012 </td></tr>
                             <tr><td>Page count:313 </td></tr>
@@ -124,8 +124,11 @@
             </table>
           </div>
 <!-- -----------------------------table ends here--------------------------- -->
-          <div class="formdiv">
-
+          <div class="sectiondiv" id="formstart">
+            <h1 id="sectionHeading">Register</h1>
+            <form action="/submit" method="post">
+                
+            </form>
           </div>  
         </div>
     </section>
