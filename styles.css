@@ -73,15 +73,17 @@ header{
 
     width: 100vw;
     padding: 20px 0px;
-    background-color: burlywood;
+    background-color:rgb(221, 238, 251);
     /* background-image: url(https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80); */
 }
 
 
 .sectiondiv{
-    width: 70%;
+    width: 80%;
     padding: 40px 20px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-color:rgba(208, 208, 245, 0.84)
+    ;
     margin: 20px;
     margin-bottom: 40px;
     border-radius: 10px;
@@ -99,10 +101,9 @@ header{
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-    width: 92%;
+    width: 93%;
     border: 1px solid gray;
     border-collapse: collapse;
-    /* background-color: red; */
 }
 .main-table th, td{
     border: 1px solid gray;
@@ -132,23 +133,51 @@ header{
     font-size: 24px;
 } 
 
-/* CSS FOR FORM STARTS HERE */
-/* 
-.formsdiv{
-    width: 70%;
-    padding: 40px 20px;
-    background-color: aliceblue;
-    margin: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0,0.1);
+.formFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+ 
+.form-group {
+     margin-left: 40px ; 
+} 
+
+
+.form-group label {
+    font-size: 16px;
+    display: block;
+    margin-top: 30px;
 }
 
-#FormsHeading{
-    font-size: 24px;
-    font-weight: 900;
-    margin: 10px 40px;
-    margin-bottom: 25px; 
-} */
 
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="number"] {
+    width: 94%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.form-group input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 94%;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: rgb(244, 104, 80);
+}
