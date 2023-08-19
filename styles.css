@@ -1,3 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
-    background-color: blueviolet;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    /* box-sizing: border-box; */
 }
+/*  navbar css */
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 13px;
+    position: sticky;
+}
+
+#navList{
+    padding: 0px 15px;
+}
+
+#navList li{
+    float: left;
+    font-size: 19px;
+    list-style: none;
+    margin: 2px 15px;  
+}
+    #navList li a{
+        text-decoration: none;
+        padding: 3px 3px;
+        color: white;
+    }
+    #navList li a:hover{
+        color: rgb(75, 75, 226);
+    }
+
+#navIcon{
+    font-family: Merriweather, sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 0px 2px white;
+    font-weight: 500;
+    color: white;
+    margin: 10px 15px;
+}
+    #navIcon a{
+        text-decoration: none;
+        padding: 3px 15px;
+        color: white;
+    }
+
+    #navIcon a:hover{
+        color: rgb(75, 75, 226);
+        opacity: 0.85;
+    }
+
+    /* Styling of table and form container*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100vw;
+    padding: 20px 0px;
+    background-color: burlywood;
+    /* background-image: url(https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80); */
+}
+
+.booksdiv{
+    width: 75%;
+    padding: 40px 20px;
+    background-color: aliceblue;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0,0.1);
+}
+.main-table{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    /* background-color: red; */
+}
+.main-table th, td{
+    border: 1px solid gray;
+    padding: 7px;
+
+}
+
+.subtable{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.bookImg{
+    width:220px;
+    height: 290px;
+}
+/*
+.bookSrNo{
+
+} 
+.formdiv{
+
+} */
