@@ -4,21 +4,26 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 /*  navbar css */
+header{
+    position: sticky;
+    top: 0px;
+    
+}
 .navbar{
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px 13px;
-    position: sticky;
+    padding: 5px 13px;   
 }
 
 #navList{
     padding: 0px 15px;
+    /* position: relative; */
 }
 
 #navList li{
@@ -34,9 +39,11 @@
     }
     #navList li a:hover{
         color: rgb(75, 75, 226);
+        cursor: pointer;
     }
 
 #navIcon{
+    /* position: relative; */
     font-family: Merriweather, sans-serif;
     font-size: 24px;
     text-shadow: 2px 0px 2px white;
@@ -53,6 +60,7 @@
     #navIcon a:hover{
         color: rgb(75, 75, 226);
         opacity: 0.85;
+        cursor: pointer;
     }
 
     /* Styling of table and form container*/
@@ -70,23 +78,26 @@
 }
 
 .booksdiv{
-    width: 75%;
+    width: 80%;
     padding: 40px 20px;
     background-color: aliceblue;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0,0.1);
+
 }
 .main-table{
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
+    width: 92%;
     border: 1px solid gray;
     border-collapse: collapse;
     /* background-color: red; */
 }
 .main-table th, td{
     border: 1px solid gray;
-    padding: 7px;
+    padding: 10px;
 
 }
 
@@ -99,7 +110,7 @@
 
 .bookImg{
     width:220px;
-    height: 290px;
+    height: 270px;
 }
 /*
 .bookSrNo{
